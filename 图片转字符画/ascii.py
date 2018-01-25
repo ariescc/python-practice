@@ -22,8 +22,8 @@ OUTPUT = args.output
 
 
 # 字符画所使用的字符集
-#ascii_char = list("$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\|()1{}[]?-_+~<>i!lI;:,\"^`'. ")
-ascii_char = list("love ")
+ascii_char = list("$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\|()1{}[]?-_+~<>i!lI;:,\"^`'. ")
+#ascii_char = list("love ")
 
 # RGB值转字符
 def get_char(r, g, b, alpha = 256):
